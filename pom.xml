@@ -16,14 +16,14 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <robotlocation>./robots</robotlocation>
+        <robotlocation>./misc/robots</robotlocation>
     </properties>
 
     <profiles>
       <profile>
         <id>dev</id>
         <properties>
-           <robotlocation>path_to_the_robots_directory_from_your_robocode_installation</robotlocation>
+           <robotlocation>~/robo/z/misc/robots/</robotlocation>
         </properties>
       </profile>
     </profiles>
